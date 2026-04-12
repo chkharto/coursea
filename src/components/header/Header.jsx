@@ -12,8 +12,8 @@ const Header = () => {
           <Rocket className="w-7.5 h-7.5" />
         </div>
 
-        {/* {token ? <HeaderAuth /> : <HeaderGuest />} */}
-        {token ? <HeaderGuest />: <HeaderAuth /> }
+        {token ? <HeaderAuth /> : <HeaderGuest />}
+        {/* {token ? <HeaderGuest />: <HeaderAuth /> } */}
       </div>
     </div>
   );
