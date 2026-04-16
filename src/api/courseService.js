@@ -18,7 +18,7 @@ export const getCourseById = async (id) => {
 
 export const getCategories = async () => {
   return await apiFetch("/categories");
-};
+}; 
 
 export const getTopics = async () => {
   return await apiFetch("/topics");

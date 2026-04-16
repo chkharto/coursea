@@ -21,5 +21,5 @@ export const apiFetch = async (endpoint, options = {}) => {
     throw new Error(data.message || "Something went wrong");
   }
 
-  return data;
+  return data; 
 };

@@ -5,4 +5,4 @@ export const updateProfile = async (formData) => {
     method: "PUT",
     body: formData,
   });
-};
+}; 
