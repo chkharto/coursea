@@ -14,10 +14,11 @@ const DetailsPage = () => {
         setLogin={setLogin}
         setSignup={setSignup}
         setProfile={setProfile}
-        setShowSidebar={setShowSidebar}
+        setShowSidebar={setShowSidebar} 
       />
-      <Details />
+      <Details /> 
       <Footer />
+      
 
       {showSidebar && <Sidebar setShowSidebar={setShowSidebar} />}
 
