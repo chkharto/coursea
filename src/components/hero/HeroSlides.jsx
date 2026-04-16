@@ -12,7 +12,7 @@ const HeroSlide = ({ slide, next, prev, current, total, setCurrent }) => {
       }}
     >
       <div className="absolute inset-0 bg-linear-to-r from-black/60 to-transparent"></div>
-
+ 
       <div className="relative z-10 ">
         <h1 className="text-[48px] font-bold mb-4">{slide.title}</h1>
         <p className="text-[24px] mb-6 max-w-304.5">{slide.desc}</p>

@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="px-44.25 mt-16">
+    <div className="px-44.25 mt-16"> 
       <HeroSlide
         slide={slides[current]}
         next={next}

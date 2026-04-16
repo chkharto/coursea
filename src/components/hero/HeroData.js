@@ -15,7 +15,7 @@ const slides = [
     desc: "Your learning journey is already in progress. Continue your enrolled courses, track your progress, and stay on track toward completing your goals.",
     button: "Start Learning",
   },
-  {
+  { 
     image: hero3,
     title: "Learn together, grow faster",
     desc: "",
