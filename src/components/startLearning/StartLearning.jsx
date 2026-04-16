@@ -43,7 +43,7 @@ const StartLearning = () => {
       <div className="grid grid-cols-3 gap-6 mt-10">
         {courses.map((course) => (
           <StartLearningCard key={course.id} course={course} />
-        ))}
+        ))} 
       </div>
     </section>
   );

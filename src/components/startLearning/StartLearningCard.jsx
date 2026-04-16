@@ -43,7 +43,7 @@ const StartLearningCard = ({ course }) => {
             <Link to="/details">Details</Link>
           </button>
         </div>
-      </div>
+      </div> 
     </div>
   );
 };
