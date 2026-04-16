@@ -6,7 +6,7 @@ const HeaderGuest = ({ setLogin, setSignup }) => {
     <div className='flex items-center gap-9 text-[20px]'>
         <div className="flex items-center gap-2 text-text hover:text-primary cursor-pointer">
             <Sparkles />
-            <p>Browse Courses</p>
+            <>Browse Courses</>
         </div>
         <div className="gap-10.75">
             <button onClick={() => setLogin(true)} className="px-3.5 py-2 border-2 border-[#958FEF] rounded-lg text-[#4F46E5] cursor-pointer">
