@@ -17,7 +17,7 @@ const ContinueLearningCard = ({ course }) => {
         <img
           src={image}
           alt={title}
-          className="w-30 h-30 rounded-xl object-cover shrink-0"
+          className="w-30 h-30 rounded-xl object-cover shrink-0" 
         />
 
         <div className="flex-1 min-w-0">
