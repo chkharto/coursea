@@ -6,7 +6,7 @@ import DetailsPage from './pages/DetailsPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/coursea">
       <div className="h-screen w-full ">
         <Routes>
           <Route path="/" element={<Home />} />
