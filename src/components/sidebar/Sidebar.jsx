@@ -37,7 +37,7 @@ const Sidebar = ({ setShowSidebar }) => {
         onClick={() => setShowSidebar(false)}
       />
 
-      <aside className="w-[794px] h-full bg-white px-6 py-8 overflow-y-auto shadow-2xl relative">
+      <aside className="w-198.5 h-full bg-white px-6 py-8 overflow-y-auto shadow-2xl relative">
         <div className="flex items-center justify-between mb-6 pr-8">
           <h2 className="text-[40px] font-semibold text-[#0A0A0A] leading-none">
             Enrolled Courses
@@ -65,20 +65,20 @@ const Sidebar = ({ setShowSidebar }) => {
         {!loading && !error && courses.length === 0 && (
           <div className="min-h-[80vh] flex flex-col items-center justify-center text-center">
             <div className="mb-6 flex items-center justify-center">
-              <Package className="w-[130px] h-[130px] text-[#D1D1D1]" />
+              <Package className="w-32.5 h-32.5 text-[#D1D1D1]" />
             </div>
 
             <h3 className="text-[24px] font-semibold text-[#130E67]">
               No Enrolled Courses Yet
             </h3>
 
-            <p className="text-[14px] text-[#130E67] mt-1 font-medium leading-6 max-w-[274px]">
+            <p className="text-[14px] text-[#130E67] mt-1 font-medium leading-6 max-w-68.5">
               Your learning journey starts here! Browse courses to get started.
             </p>
 
             <button
               type="button"
-              className="mt-6 bg-[#4F46E5] text-white text-[14px] font-medium px-[25px] py-[17px] rounded-lg hover:bg-[#4338CA] transition cursor-pointer"
+              className="mt-6 bg-[#4F46E5] text-white text-[14px] font-medium px-6.25 py-4.25 rounded-lg hover:bg-[#4338CA] transition cursor-pointer"
             >
               <Link to="/courses">Browse Courses</Link>
             </button>

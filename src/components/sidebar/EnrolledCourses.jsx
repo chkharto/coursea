@@ -32,7 +32,7 @@ const EnrolledCourses = ({ course }) => {
         <img
           src={image}
           alt={title}
-          className="w-[269px] h-[191px] rounded-md object-cover shrink-0"
+          className="w-67.25 h-47.75 rounded-md object-cover shrink-0"
         />
 
         <div className="flex-1 min-w-0">
@@ -42,7 +42,7 @@ const EnrolledCourses = ({ course }) => {
                 Instructor {instructor}
               </p>
 
-              <h3 className="text-[20px] font-semibold text-[#141414] leading-[1.25] mt-1 line-clamp-2">
+              <h3 className="text-[20px] font-semibold text-[#141414] leading-tight mt-1 line-clamp-2">
                 {title}
               </h3>
             </div>
