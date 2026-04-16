@@ -302,7 +302,7 @@ const Profile = ({ setProfile }) => {
   if (loadingProfile) {
     return (
       <div className="fixed inset-0 z-50 bg-black/45 flex items-center justify-center px-4">
-        <div className="bg-white rounded-xl p-8 w-full max-w-[390px]">
+        <div className="bg-white rounded-xl p-8 w-full max-w-97.5">
           <p className="text-center text-[#666666]">Loading profile...</p>
         </div>
       </div>
@@ -311,7 +311,7 @@ const Profile = ({ setProfile }) => {
 
   return (
     <div className="fixed inset-0 z-50 bg-black/45 flex items-center justify-center px-4">
-      <div className="bg-white rounded-xl p-8 w-full max-w-[390px] relative max-h-[95vh] overflow-y-auto">
+      <div className="bg-white rounded-xl p-8 w-full max-w-97.5 relative max-h-[95vh] overflow-y-auto">
         <button
           type="button"
           onClick={handleClose}
@@ -441,7 +441,7 @@ const Profile = ({ setProfile }) => {
               )}
             </div>
 
-            <div className="w-[72px]">
+            <div className="w-18">
               <label className="mb-2 block text-[14px] font-medium text-[#000000]">
                 Age
               </label>
@@ -473,7 +473,7 @@ const Profile = ({ setProfile }) => {
               Upload Avatar
             </label>
 
-            <label className="flex h-[114px] w-full cursor-pointer flex-col items-center justify-center rounded-lg border-[1.5px] border-[#D1D1D1] bg-white text-center">
+            <label className="flex h-28.5 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-[1.5px] border-[#D1D1D1] bg-white text-center">
               <Upload className="w-6 h-6 text-[#B0B0B0]" />
               <p className="mt-2 text-[14px] text-[#666666]">
                 Drag and drop or{" "}

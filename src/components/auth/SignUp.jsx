@@ -137,7 +137,7 @@ const SignUp = ({ setSignup, setLogin }) => {
               step == 1 ? "bg-[#B7B3F4]" : "bg-[#4F46E5]"
             }`}
           />
-          <div
+          <div 
             className={`h-1 w-full rounded-full ${
               step == 2 ? "bg-[#B7B3F4]" : step > 2 ? "bg-[#4F46E5]" : "bg-[#EEEDFC]"
             }`}
@@ -271,7 +271,7 @@ const SignUp = ({ setSignup, setLogin }) => {
                   Upload Avatar
                 </label>
 
-                <label className="flex h-[145px] w-full cursor-pointer flex-col items-center justify-center rounded-lg border-[1.5px] border-[#D1D1D1] bg-white text-center">
+                <label className="flex h-36.25 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-[1.5px] border-[#D1D1D1] bg-white text-center">
                   <Upload className="w-7 h-7 text-[#A3A3A3]" />
                   <p className="mt-3 text-[14px] text-[#666666]">
                     Drag and drop or{" "}

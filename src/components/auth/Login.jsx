@@ -32,7 +32,7 @@ const Login = ({ setLogin, setSignup }) => {
       const token =
         data?.token ||
         data?.access_token ||
-        data?.data?.token ||
+        data?.data?.token || 
         data?.data?.access_token;
 
       if (!token) {

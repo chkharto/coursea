@@ -46,7 +46,7 @@ const CourseCard = ({ course }) => {
           </div>
         </div>
 
-        <h3 className="mt-2 text-[24px] font-semibold text-[#0A0A0A] leading-[1.2] min-h-[72px]">
+        <h3 className="mt-2 text-[24px] font-semibold text-[#0A0A0A] leading-[1.2] min-h-18">
           {title}
         </h3>
 
