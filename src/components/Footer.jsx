@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
 
       {/* BOTTOM */}
       <div className="mt-18.5 flex items-center justify-between text-[18px]">
