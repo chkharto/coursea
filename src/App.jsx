@@ -1,12 +1,21 @@
-import './App.css'
-import Home from './pages/Home'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./pages/Home";
+import Courses from "./pages/Courses";
+import DetailsPage from './pages/DetailsPage';
 
 function App() {
   return (
-    <div className='h-screen w-full bg-[#F5F5F5]'>
-      <Home />
-    </div>
-  )
+    <Router>
+      <div className="h-screen w-full ">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/details" element={<DetailsPage />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;

@@ -1,4 +1,5 @@
 import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HeroSlide = ({ slide, next, prev, current, total, setCurrent }) => {
   return (
@@ -16,15 +17,17 @@ const HeroSlide = ({ slide, next, prev, current, total, setCurrent }) => {
         <h1 className="text-[48px] font-bold mb-4">{slide.title}</h1>
         <p className="text-[24px] mb-6 max-w-304.5">{slide.desc}</p>
         <button className="bg-[#4F46E5] text-white px-6 py-2 rounded mt-10 h-16">
+          <Link to="/courses" className="flex items-center gap-2">
           {slide.button}
+          </Link>
         </button>
       </div>
 
       {/* arrows */}
       <div className="absolute right-12 bottom-13.75 flex gap-6 z-20">
-        <CircleChevronLeft onClick={prev} className={`w-13.5 h-13.5 ${current === 0 && "text-[#C1BCBC80]"} `} />
+        <CircleChevronLeft onClick={prev} className={`w-13.5 h-13.5 cursor-pointer ${current === 0 && "text-[#C1BCBC80]"} `} />
 
-        <CircleChevronRight onClick={next} className={`w-13.5 h-13.5 ${current === total - 1 && "text-[#C1BCBC80]"} `} />
+        <CircleChevronRight onClick={next} className={`w-13.5 h-13.5 cursor-pointer ${current === total - 1 && "text-[#C1BCBC80]"} `} />
       </div>
 
       {/* dots */}
